@@ -1,0 +1,22 @@
+var Teamprojects=`<a href="https://matthiasliszt.github.io"><h2>Single Projects</h2></a>
+                  <button onclick="$('#teamprojectlist').show()"><h2>Team Projects</h2></button>
+                  <div class="panel" style="display:none;" id="teamprojectlist">
+                    <ul>
+                       <li><h3>Project Mesa Solar</h3>
+                           <a href="https://www.youtube.com/watch?v=yMILuL1KsNY">
+                             <img src="https://res.cloudinary.com/coding4lifeblog-wordpress-com/image/upload/v1489999767/cv/iogagroup.jpg">
+                           </a>
+                       </li>
+                       <li><h3>Project BIM at CodeFactory</h3>
+                           <a href="https://github.com/DominicWieser/FSWD40-Project-02-Wi5">
+                              <img src="img/teamstart.jpg">
+                           </a>   
+                       </li>
+                       <li><h3>Project CodeFactory Student Ticket Help</h3>
+                           <a href="https://github.com/Alexhardo/FSWD40-Project04">
+                              <img src="img/studenthelp.jpg"> 
+                           </a>
+                       </li> 
+                    </ul>
+                  </div>
+                 `;

@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta tags="Matthias, Liszt, Portfolio" name="keywords">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Portfolio Of Liszt</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/min.css">
+    <link rel="stylesheet" href="https://matthiasliszt.github.io/newstyle.css">
+    <link rel="stylesheet" href="css/teamprojects.css">
+</head>
+
+<body>
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Liszt's Portfolio</span>
+        </div>
+    </div>
+
+    <!-- Navbar (sit on top) -->
+    <nav class="bg-dark">
+        <div class="container">
+            <ul class="nav justify-content-end">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactme" onclick="$('#contactme').show()">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutme" onclick="$('#aboutme').show()">About</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="header">
+            <!-- h2>Scroll Indicator</h2 -->
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container (About Div) -->
+    <div class="panel" id="aboutme" style="display:none;">
+        <div class="w3-content w3-container w3-padding-64" id="about">
+            <!-- insert content var About with js -->
+        </div>
+    </div>
+
+
+    <!-- Container (Skills Section) -->
+    <section class="Skills">
+        <button class="accordion"><h2>Skills</h2></button>
+        <div class="panel" id="skills">
+          <!--p>my skills </p-->  
+        </div>
+    </section>
+
+    <!-- Container (Projects Section) -->
+    <section class="projects">
+        <button class="accordion"><h2>Projects</h2></button>
+        <div class="panel" id="teamprojects">
+            <!--> some of my team projects <-->
+        </div>
+    </section>
+
+    <!-- Container (Contact Div) -->
+    <div class="panel" id="contactme" style="display:none;">
+        <div class="w3-content w3-container w3-padding-64" id="contact">
+            <h3 class="w3-center">CONTACT</h3>
+            <!--p class="w3-center"><em>I'd love your feedback!</em></p-->
+
+            <div class="w3-row w3-padding-32 w3-section">
+                <div class="w3-col m4 w3-container">
+                    <!-- Add Google Maps -->
+                    <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+                </div>
+                <div class="w3-col m8 w3-panel">
+                    <div class="w3-large w3-margin-bottom">
+                        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Vienna, AT<br>
+                        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Mobile: +43 677 616 843 66<br>
+                        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> E-Mail: matthias.Liszt@gmail.com<br>
+                    </div>
+                    <!-- p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p-->
+                    <form action="/action_page.php" target="_blank">
+                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                            </div>
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                            </div>
+                        </div>
+                        <div style="margin-top: 16px;margin-bottom: 8px;">
+                        <input  class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"> 
+                        </div>  
+                        <div>
+                        
+                        <input  id="contactmessage" class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                        <button class="w3-button w3-black w3-right w3-section" type="submit">
+						  <i class="fa fa-paper-plane"></i> SEND MESSAGE
+			</div>			</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Container (Contact Section) -->
+
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+
+        <div class="w3-xlarge w3-section" id="socialmedia">
+
+
+            <a href="https://github.com/MatthiasLiszt"><i class="fa fa-github w3-hover-opacity"></i></a>
+            <a href="https://twitter.com/mlisztprogram"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/matthias-liszt-a1624613a/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <p class="impressum">Matthias Liszt, Am Schöpfwerk 58/4/11 &copy;</p> 
+        </div>
+        
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/min.js"></script>
+    <script src="https://matthiasliszt.github.io/projects.json"></script>
+    <script src="js/gettags.js"></script>
+    <script src="json/about.json"></script>
+    <script src="json/teamprojects.json"></script>
+    <script>$('#about').html(About);
+            $('#teamprojects').html(Teamprojects);   
+    </script>
+</body>
+
+</html>

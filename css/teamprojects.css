@@ -1,0 +1,28 @@
+#teamprojects a{
+ text-decoration: none;
+ color: black;
+}
+
+#teamprojects button{
+ border: none;
+ background-color: transparent;
+ color: black;
+}
+
+#teamprojects button:hover{
+ color: blue;
+}
+
+#teamprojects ul img {
+ width: 31vw;
+
+}
+
+#teamprojects li{
+ margin-top: 2em;
+ list-style-type: none;
+}
+
+#teamprojects img:hover{
+ opacity: 0.33;
+}
