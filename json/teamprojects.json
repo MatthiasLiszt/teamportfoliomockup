@@ -4,17 +4,17 @@ var Teamprojects=`<a href="https://matthiasliszt.github.io"><h2>Single Projects<
                     <ul>
                        <li><h3>Project Mesa Solar</h3>
                            <a href="https://www.youtube.com/watch?v=yMILuL1KsNY">
-                             <img src="https://res.cloudinary.com/coding4lifeblog-wordpress-com/image/upload/v1489999767/cv/iogagroup.jpg">
+                             <img data-echo="https://res.cloudinary.com/coding4lifeblog-wordpress-com/image/upload/v1489999767/cv/iogagroup.jpg" alt="Matthias Liszt at IOG-Austria with Kathrin, Ahmed, Artjom ">
                            </a>
                        </li>
                        <li><h3>Project BIM at CodeFactory</h3>
-                           <a href="https://github.com/DominicWieser/FSWD40-Project-02-Wi5">
-                              <img src="img/teamstart.jpg">
+                           <a href="https://github.com/DominicWieser/FSWD40-Project-02-Wi5" alt="Matthias Liszt at Code Factory with Dominic Wieser, Dominik Link , Isabell Schahnaz , Dennis Schuelle">
+                              <img data-echo="img/teamstart.jpg">
                            </a>   
                        </li>
                        <li><h3>Project CodeFactory Student Ticket Help</h3>
                            <a href="https://github.com/Alexhardo/FSWD40-Project04">
-                              <img src="img/studenthelp.jpg"> 
+                              <img data-echo="img/studenthelp.jpg" alt="Matthias Liszt with Ivan Zykov, Tim Almamedov, Alex Hardo, Samih Shahin"> 
                            </a>
                        </li> 
                     </ul>

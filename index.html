@@ -11,17 +11,17 @@
 
     <title>Portfolio Of Liszt</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" async>
+    <link rel="stylesheet" href="css/bootstrap.min.css" async>
 
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.css" async>
 
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" async>
 
     <!-- custom CSS -->
-    <link rel="stylesheet" href="css/min.css">
-    <link rel="stylesheet" href="https://matthiasliszt.github.io/newstyle.css">
-    <link rel="stylesheet" href="css/teamprojects.css">
+    <link rel="stylesheet" href="css/min.css" async>
+    <link rel="stylesheet" href="https://matthiasliszt.github.io/newstyle.css" async>
+    <link rel="stylesheet" href="css/teamprojects.css" async>
 </head>
 
 <body>
@@ -148,6 +148,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nicescroll.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/echo.js"></script>
     <script>
         new WOW().init();
     </script>
@@ -157,7 +158,9 @@
     <script src="json/about.json"></script>
     <script src="json/teamprojects.json"></script>
     <script>$('#about').html(About);
-            $('#teamprojects').html(Teamprojects);   
+            $('#teamprojects').html(Teamprojects);
+            echo.init();   
+            addTagButton(tags);
     </script>
 </body>
 

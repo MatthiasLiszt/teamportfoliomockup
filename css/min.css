@@ -16,7 +16,7 @@ body, html {
 /* First image (Logo. Full height) */
 .bgimg-1 {
     //background-image: url('https://png.pngtree.com/thumb_back/fw800/back_pic/03/70/72/5257b6c12d89875.jpg');
-    background-image: url('../img/teamstart.jpg');
+    background-image: url('../img/teamstart-sm.jpg');
     min-height: 100%;
 }
 

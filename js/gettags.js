@@ -9,7 +9,7 @@ projects.map(function(x){
 });
 
 
-addTagButton(tags);
+//addTagButton(tags);
 
  
 function addTagButton(data){
