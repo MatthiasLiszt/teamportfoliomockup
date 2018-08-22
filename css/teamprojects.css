@@ -1,7 +1,8 @@
 #teamprojects a{
  text-decoration: none;
- color: black;
+ border: none;
 }
+
 
 #teamprojects button{
  border: none;
@@ -25,4 +26,16 @@
 
 #teamprojects img:hover{
  opacity: 0.33;
+}
+
+#certificates{
+ background-color: #343a40;
+}
+
+#certificates a{
+ color: lightgrey;
+}
+
+#certificates a:hover{
+ color:black;
 }

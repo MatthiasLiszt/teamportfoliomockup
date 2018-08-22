@@ -85,3 +85,12 @@ body, html {
 #contactmessage{
  //word-break: break-word;
 }
+
+nav button{
+ border: none;
+ background-color: transparent;
+}
+
+nav #certificates:hover{
+ color: blue;
+}
