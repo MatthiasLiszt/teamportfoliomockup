@@ -8,6 +8,15 @@
  border: none;
  background-color: transparent;
  color: black;
+ text-align: center;
+}
+
+#teamprojects h2{
+ color: black;
+}
+
+#teamprojects h2:hover{
+ color: blue;
 }
 
 #teamprojects button:hover{

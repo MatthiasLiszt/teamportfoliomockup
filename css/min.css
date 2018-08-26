@@ -83,7 +83,7 @@ body, html {
 }
 
 #contactmessage{
- //word-break: break-word;
+ height: 6em;
 }
 
 nav button{
@@ -93,4 +93,30 @@ nav button{
 
 nav #certificates:hover{
  color: blue;
+}
+
+.justdark h2{
+ text-align: center;
+ 
+}
+
+.justdark button,h2 {
+ background-color: transparent;
+ color: cyan;
+}
+
+.justdark button:hover{
+ background-color: black;
+}
+
+.justdark h2:hover{
+ color: white;
+}
+
+#sectionwrapper{
+ background-color: black;
+}
+
+.galaxy{
+ background-image: url('../img/milkyway.jpg');
 }

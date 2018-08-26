@@ -1,5 +1,6 @@
-var Teamprojects=`<a href="https://matthiasliszt.github.io"><h2>Single Projects</h2></a>
-                  <button onclick="$('#teamprojectlist').show()"><h2>Team Projects</h2></button>
+var Teamprojects=`
+                  <a href="https://matthiasliszt.github.io"><h2>Single Projects</h2></a>
+                  <a href="#teamprojectlist" onclick="$('#teamprojectlist').show()"><h2>Team Projects</h2></a>
                   <div class="panel" style="display:none;" id="teamprojectlist">
                     <ul>
                        <li><h3>Project Mesa Solar</h3>
